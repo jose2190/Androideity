@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, SpinnerTestActivity!</string>
+    <string name="app_name">SpinnerTest</string>
+    <string name="seleccionado">Has seleccionado:</string>
+    <string name="mensaje">Selecciona una versión</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="versiones">
+		<item>Cupcake v1.5</item>
+		<item>Donut v1.6</item>
+		<item>Éclair v2.0/2.1</item>
+		<item>Froyo v2.2</item>
+		<item>Gingerbread v2.2</item>
+		<item>Honeycomb v3.0/3.1</item>
+	</string-array>
+</resources>
