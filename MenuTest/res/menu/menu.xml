@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nueva_nota"
+          android:icon="@drawable/escribir"
+          android:title="@string/nuevo" />
+    <item android:id="@+id/herramientas"
+          android:icon="@drawable/opciones"
+          android:title="@string/herramientas" />
+</menu>

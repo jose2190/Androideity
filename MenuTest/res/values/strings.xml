@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Este es un ejemplo de un menú de opciones.</string>
+    <string name="app_name">MenuTest</string>
+    <string name="nuevo">Nueva nota</string>
+    <string name="herramientas">Herramientas</string>
+</resources>
