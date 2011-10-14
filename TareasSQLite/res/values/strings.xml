@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, TareasSQLiteActivity!</string>
+    <string name="app_name">TareasSQLite</string>
+    <string name="menu_insert">Agregar tarea</string>
+	<string name="menu_delete">Borrar</string>
+	<string name="todo_summary">Nombre</string>
+	<string name="todo_description">Borrar</string>
+	<string name="todo_edit_summary">Nombre</string>
+	<string name="todo_edit_description">Descripción</string>
+	<string name="todo_edit_confirm">Aceptar</string>
+	<string name="no_todos">Aún no existen elementos en la lista.</string>
+	<color name="listcolor">#94A65D</color>
+	<color name="black">#000000</color>
+</resources>
