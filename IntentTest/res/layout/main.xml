@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<Button 
+		android:id="@+id/Button01" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text="Browser"  
+		android:onClick="callIntent"/>
+	<Button 
+		android:id="@+id/Button02" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text="Llamar a contacto" 
+		android:width="100px" 
+		android:onClick="callIntent"/>
+	<Button 
+		android:id="@+id/Button03" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text="Marcar" 
+		android:width="100px" 
+		android:onClick="callIntent"/>
+	<Button 
+		android:id="@+id/Button04" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text="Mostrar mapa" 
+		android:width="100px" 
+		android:onClick="callIntent"/>
+	<Button 
+		android:id="@+id/Button05" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text="Buscar en mapa" 
+		android:width="100px" 
+		android:onClick="callIntent"/>
+	<Button 
+		android:id="@+id/Button06" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text="Tomar una foto" 
+		android:width="100px" 
+		android:onClick="callIntent"/>
+	<Button 
+		android:id="@+id/Button07" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text="Mostrar contactos" 
+		android:width="100px" 
+		android:onClick="callIntent"/>
+</LinearLayout>
