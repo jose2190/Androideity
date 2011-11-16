@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Este es el layout que se llama para crear la GUI de la segunda actividad (pantalla) de la app -->
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"><!-- Contenedor y elemento raiz del documento -->
+  <!-- Hemos definido dos labels, dos cajas de texto y un boton para la GUI de esta pantalla -->
+  <TextView
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="Primer valor" />
+  <!-- Cuando necesitemos que un elemento de XML sea manipulado desde código Java es necesario definir ID's -->
+  <EditText
+  	android:id="@+id/nombre"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+   />
+  <TextView
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:text="Segundo valor"
+  	 />
+  <EditText
+  	android:id="@+id/edad"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	 />
+  <!-- Podemos utilizar el atributo android:onClick para definir el nombre del método que manipulará el evento onClick de un widget -->
+  <Button
+  	android:id="@+id/regresar"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:onClick="onClick"
+  	android:text="Regresar" />
+</LinearLayout>
