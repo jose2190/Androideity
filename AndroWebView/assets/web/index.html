@@ -1,0 +1,36 @@
+<html>
+<head>
+	<script type="text/javascript">
+		function onData(){
+			var wel_msg = document.getElementById("wel_msg");
+			if(window.native_java){
+				// Call the native Java Method
+				window.native_java.getDataFromJava("Alan Miers");
+			}
+			else{
+				wel_msg.innerHTML = "No Native JavaScript Handler";
+			}
+		}
+
+		function updateMsg(msg){
+			var wel_msg = document.getElementById("wel_msg");
+			if(window.native_java){
+				// Call the native Java Method
+				wel_msg.innerHTML = msg;
+			}
+			else{
+				wel_msg.innerHTML = "No Native JavaScript Handler";
+			}
+		}
+	</script>
+</head>
+<body>
+	Welcome message from Java: <p>[<span id='wel_msg'></span>]
+	<p>
+	<!-- Get data from native method call -->
+	<button onClick="onData()"> Get Java Data </button>
+	<p>
+	<!-- Intercept the request in WebView -->
+	<a href='next.html'>Jump to next Page</a>
+</body>
+</html>
